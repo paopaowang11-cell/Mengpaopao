@@ -1,0 +1,6 @@
+../Core/Src/wifi.c:6:6:WIFI_Config0	16	static
+../Core/Src/wifi.c:25:6:WIFI_Config	24	static
+../Core/Src/wifi.c:45:6:WIFI_Router	16	static
+../Core/Src/wifi.c:78:6:WIFI_Connect	16	static
+../Core/Src/wifi.c:140:5:WIFI_SendData	16	static
+../Core/Src/wifi.c:157:6:ESP8266_Clear	8	static
