@@ -1,0 +1,6 @@
+/**
+ * @file xiaozhi_detect.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 唤醒词上报模板：listen/detect，文本为“你好，小智”。
+ */
+"{\"type\":\"listen\",\"state\":\"detect\",\"text\":\"你好，小智\"}"

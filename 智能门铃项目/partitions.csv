@@ -1,0 +1,12 @@
+# Flash 分区表：空 Offset 由 ESP-IDF 分区工具按顺序及对齐要求计算。
+# nvs 保存网络凭据和 UUID；otadata 保存 OTA 选择信息；phy_init 供 PHY 初始化数据使用。
+# factory 是 6 MiB 应用分区；model 为 300 KiB 的语音模型数据分区，对应 esp_srmodel_init("model")。
+# 当前仅定义 factory 应用槽，otadata 的存在不代表已经配置双槽 OTA。
+# Name,   Type, SubType, Offset,  Size, Flags
+# Note: if you have increased the bootloader size, make sure to update the offsets to avoid overlap
+nvs,      data, nvs,     ,        0x4000,
+otadata,  data, ota,     ,        0x2000,
+phy_init, data, phy,     ,        0x1000,
+# Original App Section
+factory,  app,  factory,        , 6M,
+model,  data,        ,         ,    300K

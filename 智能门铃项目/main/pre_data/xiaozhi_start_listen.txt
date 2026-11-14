@@ -1,0 +1,7 @@
+/**
+ * @file xiaozhi_start_listen.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 开始监听模板：listen/start。
+ * mode 当前字面值为 manua，保留既有协议内容；此处仅增加说明。
+ */
+"{\"type\":\"listen\",\"state\":\"start\",\"mode\":\"manua\"}"

@@ -1,0 +1,7 @@
+/**
+ * @file xiaozhi_iot_desc.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 设备能力模板：Speaker 支持 volume/mute 属性和 SetVolume/SetMute 方法。
+ * volume 约定 0～100，mute 为布尔值；main.c 根据方法名执行硬件控制。
+ */
+"{\"descriptors\":[{\"description\":\"Speaker\",\"methods\":{\"SetMute\":{\"description\":\"Set mute status\",\"parameters\":{\"mute\":{\"description\":\"Mute status\",\"type\":\"boolean\"}}},\"SetVolume\":{\"description\":\"Set volume level\",\"parameters\":{\"volume\":{\"description\":\"Volume level[0-100]\",\"type\":\"number\"}}}},\"name\":\"Speaker\",\"properties\":{\"mute\":{\"description\":\"Mute status\",\"type\":\"boolean\"},\"volume\":{\"description\":\"Volume level[0-100]\",\"type\":\"number\"}}}],\"type\":\"iot\",\"update\":true}"

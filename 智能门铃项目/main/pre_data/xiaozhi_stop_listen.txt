@@ -1,0 +1,6 @@
+/**
+ * @file xiaozhi_stop_listen.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 结束监听模板：listen/stop，由 VAD 静音处理路径发送。
+ */
+"{\"type\":\"listen\",\"state\":\"stop\"}"

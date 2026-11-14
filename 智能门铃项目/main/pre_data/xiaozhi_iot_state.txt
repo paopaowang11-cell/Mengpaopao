@@ -1,0 +1,7 @@
+/**
+ * @file xiaozhi_iot_state.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 设备状态模板：静音 false、音量 60，为固定内容，不会自动同步硬件。
+ * 当前 JSON 多个键和值包含尾随空格，这些是原有字符串的一部分，此次注释保留。
+ */
+"{\"states \":[{\"name \":\"Speaker \",\"state \":{\"mute \":false,\"volume \":60}}],\"type \":\"iot \",\"update \":true}"

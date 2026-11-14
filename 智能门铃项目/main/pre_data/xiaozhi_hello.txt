@@ -1,0 +1,7 @@
+/**
+ * @file xiaozhi_hello.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * hello 握手模板：协议版本 1，传输为 websocket，音频为 Opus/16 kHz/单声道/60 ms。
+ * features.mcp=true 为当前模板声明，具体能力实现应以业务代码为准。
+ */
+"{\"type\":\"hello\",\"version\":1,\"transport\":\"websocket\",\"features\":{\"mcp\":true},\"audio_params\":{\"format\":\"opus\",\"sample_rate\":16000,\"channels\":1,\"frame_duration\":60}}"

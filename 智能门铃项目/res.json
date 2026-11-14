@@ -1,0 +1,19 @@
+{
+    "mqtt": {
+        "endpoint": "api.tenclass.net",
+        "client_id": "GID_test@@@24_ec_4a_25_0a_ac@@@d2cff479-1a05-4057-a86f-5bd0d13ff306",
+        "username": "eyJpcCI6IjIyMy4xMDQuMTk0LjIyMyIsImMiOjB9",
+        "password": "ij2cTgvwrY0EB5GyiVdG8L6EzTARjL5o1m4tHWHolKE=",
+        "publish_topic": "device-server",
+        "subscribe_topic": "null"
+    },
+    "websocket": {
+        "url": "wss://api.tenclass.net/xiaozhi/v1/",
+        "token": "test-token"
+    },
+    "activation": {
+        "code": "911919",
+        "message": "xiaozhi.me\n911919",
+        "challenge": "5fb4c4b0-34eb-4f4b-a28b-830bd7356ce5"
+    }
+}

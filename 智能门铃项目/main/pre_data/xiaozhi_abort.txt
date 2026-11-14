@@ -1,0 +1,6 @@
+/**
+ * @file xiaozhi_abort.txt
+ * 此文件是被 #include 使用的 C 字符串片段，不是独立 JSON 文件。
+ * 中断回答模板：type=abort，说话期间再次唤醒时发送。
+ */
+"{\"type\":\"abort\"}"
