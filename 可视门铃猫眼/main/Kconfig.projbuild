@@ -1,0 +1,24 @@
+# 文件位置：项目根目录 /main/Kconfig.projbuild 或 /components/your_component/Kconfig
+# 创建一个名为 "MQTT 配置" 的子菜单
+menu "doorbell config"  
+
+    config MQTT_BROKER_URI
+        string "MQTT Broker 服务器地址"  # 用户界面显示的提示文本
+        default ""  # 默认URI（可修改）
+        help
+            设置 MQTT Broker 的连接地址，格式：
+            - 明文：mqtt://broker.example.com:1883
+            - TLS加密：mqtts://broker.example.com:8883
+            - 带用户名密码：mqtt://user:pass@broker.example.com
+
+            注意：
+            1. 必须包含协议头（如 mqtt:// 或 mqtts://）
+            2. 长度不超过 128 字节
+
+    config WEBSOCKET_SERVER_BASE_URL
+        string "websocket服务器的基地址"  # 用户界面显示的提示文本
+        default ""  # 默认URI（可修改）
+
+
+
+endmenu  # 结束菜单
